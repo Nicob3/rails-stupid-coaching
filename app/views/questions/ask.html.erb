@@ -1,0 +1,8 @@
+<p>Ask your coach anything</p>
+
+  <form action="<%=answer_path%>" data-turbo="false" class="row justify-content-start">
+    <div class="d-flex col-auto">
+    <input type="text" name="question" value="<%=@answer%>" clas="form-control">
+    <input type="submit" value="Ask!" class="btn btn-primary">
+    </div>
+  </form>

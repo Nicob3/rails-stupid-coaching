@@ -13,3 +13,18 @@
  *= require_tree .
  *= require_self
  */
+
+ .btn-primary {
+  background-color: rgb(71, 71, 187);
+ }
+
+ .card-answer {
+  background-color: white;
+  border-left: 5px solid grey;
+  padding: 5px;
+  margin-bottom: 5px;
+ }
+
+ #card-coach {
+  background-color: lightgray;
+ }
